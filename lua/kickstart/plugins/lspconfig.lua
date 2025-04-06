@@ -306,6 +306,7 @@ return {
         },
 
         angularls = {},
+        tailwindcss = {},
 
         lua_ls = {
           -- cmd = { ... },
