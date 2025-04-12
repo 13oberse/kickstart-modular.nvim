@@ -4,7 +4,7 @@
 -- See the kickstart.nvim README for more information
 return {
   {
-    'seblj/roslyn.nvim',
+    'seblyng/roslyn.nvim',
     ft = { 'cs', 'razor' },
     dependencies = {
       {
@@ -20,6 +20,7 @@ return {
     config = function()
       require('roslyn').setup {
         args = {
+          '--stdio',
           '--logLevel=Information',
           '--extensionLogDirectory=' .. vim.fs.dirname(vim.lsp.get_log_path()),
           '--razorSourceGenerator='
