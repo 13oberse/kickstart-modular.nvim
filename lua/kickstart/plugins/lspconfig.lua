@@ -306,7 +306,6 @@ return {
         },
 
         angularls = {},
-        tailwindcss = {},
         prettierd = {},
 
         lua_ls = {
